@@ -7,14 +7,14 @@
 int main(void)
 {
 	char i;
-	int k;
-	long int l;
-	long long int k;
+	int j;
+	long int k;
+	long long int l;
 	float f;
-printf("sizeof char is %zu byte(s)\n", sizeof(char));
-printf("sizeof int is %zu byte(s)\n", sizeof(int));
-printf("sizeof long int is %zu byte(s)\n", sizeof(long int));
-printf("sizeof long long int is %zu byte(s)\n", sizeof(long long int));
-printf("sizeof float is %zu byte(s)\n", sizeof(float));
+printf("Size of char is %zu byte(s)\n", sizeof(i));
+printf("Size of int is %zu byte(s)\n", sizeof(j));
+printf("Size of long int is %zu byte(s)\n", sizeof(k));
+printf("Size of long long int is %zu byte(s)\n", sizeof(l));
+printf("Size of float is %zu byte(s)\n", sizeof(f));
 return (0);
 }
