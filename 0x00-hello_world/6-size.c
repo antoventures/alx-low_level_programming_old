@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - I'm printing the sizes of different datatypes in C
  * Return:0 (success)
  */
