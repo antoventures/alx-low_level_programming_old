@@ -10,10 +10,10 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
-prinf("%c: is positive");
+prinf("%d: is positive"n);
 else if (n == 0)
-printf("%c: is zero");
+printf("%d: is zero"n);
 else
-printf("%c: is netagive");
+printf("%d: is netagive"n);
 return (0);
 }
