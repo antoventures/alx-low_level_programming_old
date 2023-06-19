@@ -10,9 +10,9 @@ char c;
 char d;
 for(c = 'a'; c <= 'z'; c++)
 {
-putchar (c); 
+putchar (c"\n"); 
 }
-putchar ("\n");
+
 for (d = 'A'; d <= 'Z'; d++)
 {
 putchar (d);
