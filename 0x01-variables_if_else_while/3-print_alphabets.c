@@ -10,7 +10,7 @@ char c;
 char d;
 for(c = 'a'; c <= 'z'; c++)
 {
-putchar (c"\n"); 
+putchar (c); 
 }
 
 for (d = 'A'; d <= 'Z'; d++)
