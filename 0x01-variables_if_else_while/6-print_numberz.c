@@ -10,7 +10,8 @@ i = 0;
 l = '\n';
 while (i < 10)
 {
-	putchar(i, l);
+	putchar(i);
+	putchar(l);
 	i++;
 }
 return (0);
