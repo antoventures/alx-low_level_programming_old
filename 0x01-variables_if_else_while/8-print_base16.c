@@ -12,7 +12,7 @@ a = 'a';
 for (i = 0; i < 10; i++)
 {
 putchar(i);
-	while (a <= 'f')
+	if (a <= 'f')
 	{
 		putchar(a);
 		a++;
