@@ -12,7 +12,7 @@ int main(void)
 	c = c - 'e';
 	c = c - 'q';
 
-	for (c = 'a'; c <= 'z'; c++;
+	for (c = 'a'; c <= 'z'; c++)
 		{
 		putchar (c);
 		}
