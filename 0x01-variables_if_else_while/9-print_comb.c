@@ -6,14 +6,13 @@
 
 int main(void)
 {
-int i, s;
+int i;
 i = 0;
-s = "\n";
 while (i < 9)
 {
 putchar(i);
 i++;
-putchar(s);
+putchar(',');
 }
 return (0);
 }
