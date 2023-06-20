@@ -9,7 +9,7 @@ char z;
 z = 'a';
 z = 'z';
 for (z = 'z'; z >= 'a'; z--)
-       putchar(z);
+	putchar(z);
 putchar('\n');
 return (0);
 }
