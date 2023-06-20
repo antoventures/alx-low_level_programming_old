@@ -6,11 +6,9 @@
 
 int main(void)
 {
-	char c, e, q;
-	e = 'e';
-	q = 'q';
-	c = c - e;
-	c = c - q;
+	char c;
+	c != 'e';
+	c != 'q'; 
 
 	for (c = 'a'; c <= 'z'; c++)
 		{
