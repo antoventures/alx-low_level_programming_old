@@ -11,8 +11,8 @@ i = 0;
 while (i < 10)
 {
 	putchar(i);
-	putchar('\n');
 	i++;
+	putchar('\n');
 }
 
 return (0);
