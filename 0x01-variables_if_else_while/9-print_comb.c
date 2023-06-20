@@ -12,7 +12,7 @@ for (i = 0; i <= 9; i++)
 {
 putchar(',');
 putchar(' ');
-putchar(i)
+putchar(i);
 }
 return (0);
 }
