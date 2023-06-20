@@ -3,10 +3,10 @@
  * main - print single digit numbers
  * Return: 0 for success
  */
-int main(void)
+int main()
 {
 int i;
-for (i = 0;i < 10; i++)
+for (i = 0; i < 10; i++)
 {
 	putchar(i);
 }
