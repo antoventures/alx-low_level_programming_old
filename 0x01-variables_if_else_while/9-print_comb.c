@@ -12,7 +12,7 @@ while (i < 9)
 {
 putchar(i);
 i++;
-putchar(', ');
+putchar(", ");
 }
 return (0);
 }
