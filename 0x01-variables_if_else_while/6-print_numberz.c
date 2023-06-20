@@ -12,7 +12,7 @@ while (i < 10)
 {
 	putchar(i);
 	i++;
+	putchar(l);
 }
-putchar(l);
 return (0);
 }
