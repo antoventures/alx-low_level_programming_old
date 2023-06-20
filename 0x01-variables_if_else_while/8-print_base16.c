@@ -7,15 +7,13 @@
 int main(void)
 {
 int i, a;
-a = 'a';
 
 for (i = 0; i < 10; i++)
 {
 putchar(i);
-	if (a <= 'f')
+	for (a = 'a'; a <= 'f'; a++)
 	{
 		putchar(a);
-		a++;
 	}
 }
 putchar('\n');
