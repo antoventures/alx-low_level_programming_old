@@ -6,7 +6,8 @@
 int main(void)
 {
 int count;
-while (count = 0 && count < 10)
+count = 0;
+while (count < 10)
 {
 	putchar(count);
 	count++;
