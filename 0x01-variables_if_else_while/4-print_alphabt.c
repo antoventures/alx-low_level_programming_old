@@ -7,12 +7,13 @@
 int main(void)
 {
 	char c;
-	c != 'e';
-	c != 'q'; 
 
 	for (c = 'a'; c <= 'z'; c++)
 		{
-		putchar (c);
+			while (c != 'e' && c != 'q')
+			{
+			putchar (c);
+			}
 		}
 putchar ('\n');
 return (0);
