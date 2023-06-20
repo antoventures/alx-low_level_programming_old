@@ -9,8 +9,8 @@ int main(void)
 	char c, e, q;
 	e = 'e';
 	q = 'q';
-	c = c - 'e';
-	c = c - 'q';
+	c = c - e;
+	c = c - q;
 
 	for (c = 'a'; c <= 'z'; c++)
 		{
