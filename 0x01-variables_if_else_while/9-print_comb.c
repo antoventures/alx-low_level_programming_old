@@ -10,12 +10,13 @@ int i;
 for (i = 0; i < 10; i++)
 {
 int s;
-s = ',';
-for (s = 0; s <= 9; s++)
+s = 0;
+while (s <= 9)
 {
 putchar(' ');
 putchar(i + '0');
-putchar(s);
+putchar(',' + s);
+s++;
 }
 }
 return (0);
